@@ -8,13 +8,19 @@
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
+@synthesize Paymentview=_Paymentview;
+@synthesize navCon=_navCon;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    _Paymentview=[[PaymentViewController alloc]initWithNibName:@"PaymentViewController" bundle:nil];
+    _navCon=[[UINavigationController alloc]initWithRootViewController:_Paymentview];
+    self.window.rootViewController=_navCon;
     [self.window makeKeyAndVisible];
     return YES;
 }

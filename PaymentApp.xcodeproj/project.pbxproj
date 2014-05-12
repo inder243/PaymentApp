@@ -19,6 +19,8 @@
 		B38DCBB019176873006363DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38DCB9819176873006363DE /* UIKit.framework */; };
 		B38DCBB819176873006363DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B38DCBB619176873006363DE /* InfoPlist.strings */; };
 		B38DCBBA19176873006363DE /* PaymentAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B38DCBB919176873006363DE /* PaymentAppTests.m */; };
+		B38DCBC6191768B1006363DE /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B38DCBC4191768B1006363DE /* PaymentViewController.m */; };
+		B38DCBC7191768B1006363DE /* PaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B38DCBC5191768B1006363DE /* PaymentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		B38DCBB519176873006363DE /* PaymentAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaymentAppTests-Info.plist"; sourceTree = "<group>"; };
 		B38DCBB719176873006363DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B38DCBB919176873006363DE /* PaymentAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentAppTests.m; sourceTree = "<group>"; };
+		B38DCBC3191768B1006363DE /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		B38DCBC4191768B1006363DE /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		B38DCBC5191768B1006363DE /* PaymentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				B38DCBA319176873006363DE /* AppDelegate.h */,
 				B38DCBA419176873006363DE /* AppDelegate.m */,
+				B38DCBC3191768B1006363DE /* PaymentViewController.h */,
+				B38DCBC4191768B1006363DE /* PaymentViewController.m */,
+				B38DCBC5191768B1006363DE /* PaymentViewController.xib */,
 				B38DCBA619176873006363DE /* Images.xcassets */,
 				B38DCB9B19176873006363DE /* Supporting Files */,
 			);
@@ -221,6 +229,7 @@
 			files = (
 				B38DCB9F19176873006363DE /* InfoPlist.strings in Resources */,
 				B38DCBA719176873006363DE /* Images.xcassets in Resources */,
+				B38DCBC7191768B1006363DE /* PaymentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38DCBC6191768B1006363DE /* PaymentViewController.m in Sources */,
 				B38DCBA519176873006363DE /* AppDelegate.m in Sources */,
 				B38DCBA119176873006363DE /* main.m in Sources */,
 			);
